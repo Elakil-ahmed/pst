@@ -1,0 +1,193 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 100;
+
+}
+
+header {
+    background-color: #ffe5ec;
+    position: relative;
+    display: inline-flex;
+    font-size: 25px auto;
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 35px 12%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo {
+    font-size: 25px auto;
+    color: coral;
+    font-weight: 900;
+    margin: 20px;
+}
+
+.logo:hover {
+    box-shadow: 0 0 5px orangered,
+        0 0 25px orangered, 0 0 50px orangered,
+        0 0 100px orangered, 0 0 200px orangered;
+    font-size: 40px;
+
+}
+
+span {
+    background: linear-gradient(to right, #6cff52, #3ec5ff);
+    background-clip: text;
+    font-weight: 900;
+    color: transparent;
+}
+
+button {
+    background-color: thistle;
+    align-items: right;
+}
+
+#home {
+    height:110vh auto;
+    background-image: url(pc.jpg);
+}
+
+.sorti {
+    max-width: 350px;
+    float: left;
+    border: 3px solid orangered;
+    margin-right: 100px;
+    border-radius: 50%;
+    display: block;
+}
+
+.container {
+    font-size: 45px auto;
+    width: 50%;
+    padding: 250px;
+    gap: 30px;
+}
+.embauche{
+    display: block;
+    position: relative;
+}
+
+#etude {
+    background-color: skyblue;
+    height: auto;
+}
+
+.etu {
+    font-size: 40px auto;
+    font-weight:900;
+    display: block;
+}
+
+.sortideux {
+    max-width: 350px ;
+    float: left;
+    border-radius: 30px;
+    border-style: double;
+    border-color: orangered;
+    margin-right: 100px;
+    display: block;
+}
+
+#experience {
+    background-color: teal;
+    height: auto;
+    padding: 100px;
+    display: block;
+}
+
+#experience h1 {
+    color: black;
+    display: block;
+    font-size: 30px auto;
+    font-weight: 900;
+}
+
+.paragraph {
+    font-size: 40px auto;
+    font-weight: 400;
+    color: black;
+}
+
+.licence {
+    display: block;
+}
+
+.grid {
+    background-color: red;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 5px;
+}
+
+.grid div {
+    padding: 10px;
+    background-color: aqua;
+}
+
+#developpement {
+    background-color: skyblue;
+    height: auto;
+    width: 100%;
+    display: block;
+    align-items: center;
+
+}
+
+.devloper {
+    font-size: 50px auto;
+    font-weight: 900;
+    color: saddlebrown;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.grid-item {
+    color: orangered;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    align-items: center;
+}
+
+#contact {
+    background-color: teal;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 40px auto;
+    font-weight: 500;
+    display: block;
+}
+.contacter{
+    margin-left: 40px;
+}
+.center{
+    position: relative;
+    align-items: center;
+    color: orangered;
+}
+footer{
+    background-color: #ffe5ec;
+    position: relative;
+    font-size: 45px auto;
+    width: 100%;
+    height: 20px;
+}
+.boxicon{
+    text-align: center;
+    font-weight: 500;
+}
